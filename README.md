@@ -1,0 +1,1 @@
+Box to keep my Backend experiences, complete my understanding as Fullstack Software Engineer, also most of them are solution for a challenge I found online. Using Typescript and Python. Gonna learn Go later.
