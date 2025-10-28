@@ -10,6 +10,7 @@ HELP.md
 jest.config.cjs
 package.json
 README.md
+HINTS.md
 test-runner.mjs
 tsconfig.json
 yarn.lock
