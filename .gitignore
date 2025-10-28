@@ -13,3 +13,4 @@ README.md
 test-runner.mjs
 tsconfig.json
 yarn.lock
+__pycache__
