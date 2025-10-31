@@ -13,21 +13,24 @@ export const COLORS = [
 
 export type Colors = (typeof COLORS)[number];
 
-interface Units {
-  [key: number]: string;
-}
-
-export const UNITS: Units = {
-  1: "",
-  100: "hecto",
-  1000: "kilo",
-  1000000: "mega",
-  1000000000: "giga",
-};
-
 export function decodedResistorValue(bands: Colors[]): string {
-  return `${bands[0] == "black" ? "" : COLORS.indexOf(bands[0])}${COLORS.indexOf(bands[1])} ${UNITS[10 ** COLORS.indexOf(bands[2])]}ohms`;
-}
+  const firstBand = COLORS.indexOf(bands[0])
+  const secBand = COLORS.indexOf(bands[1])
+  const thirdBand = COLORS.indexOf(bands[2])
 
-console.log(decodedResistorValue(["blue", "green", "yellow", "orange"]))
-console.log(UNITS[10 ** COLORS.indexOf("yellow")])
+  let resistance = (firstBand * 10 + secBand) * (10 ** thirdBand)
+  
+  let unit = "ohms"
+  if (resistance >= 1_000_000_000) {
+    resistance /= 1_000_000_000
+    unit = "gigaohms"
+  } else if (resistance >= 1_000_000) {
+    resistance /= 1_000_000
+    unit = "megaohms"
+  } else if (resistance >= 1_000) {
+    resistance /= 1_000
+    unit = "kiloohms"
+  } 
+
+  return `${resistance} ${unit}`;
+}
