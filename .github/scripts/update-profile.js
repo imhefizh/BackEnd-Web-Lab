@@ -11,7 +11,7 @@ const date = new Date().toLocaleString("en-GB", {
   hour: "2-digit",
   minute: "numeric",
   second: "numeric",
-  timeZoneName: "short",
+  timeZoneName: "long",
 });
 
 const logLine = `new commit on **${repoName}** at ${date}`;
