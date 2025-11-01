@@ -8,11 +8,11 @@ This repository contains two type challenges named Apps and Problems.
 
 Commonly it is a fully function app that would have API, or etc. Here's the list of the apps:
 
-1. Web Scraper to Get News Article Content [Python]
+1. [Web Scraper to Get News Article Content]() [Python]
 
 ## Problems
 
 It's all Leetcode-Like challenges. Here is the number of problems those are solved by me:
 
-- Typescript [ 7 Problems ]
-- Python [ 3 Problems ]
+- [Typescript](https://github.com/imhefizh/BackEnd-Web-Lab/tree/main/Problems/typescript) [ 7 Problems ]
+- [Python](https://github.com/imhefizh/BackEnd-Web-Lab/tree/main/Problems/python) [ 3 Problems ]
