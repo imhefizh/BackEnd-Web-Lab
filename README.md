@@ -14,5 +14,5 @@ Commonly it is a fully functional app that would have API, or etc, taken from De
 
 It's all Leetcode-Like challenges, taken from Exercism. Here is the number of problems those are solved by me:
 
-- [Typescript](https://github.com/imhefizh/BackEnd-Web-Lab/tree/main/Problems/typescript) [ 7 Problems ]
+- [Typescript](https://github.com/imhefizh/BackEnd-Web-Lab/tree/main/Problems/typescript) [ 9 Problems ]
 - [Python](https://github.com/imhefizh/BackEnd-Web-Lab/tree/main/Problems/python) [ 3 Problems ]
