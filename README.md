@@ -8,7 +8,7 @@ This repository contains two type challenges named Apps and Problems.
 
 Commonly it is a fully functional app that would have API, or etc, taken from DevProjects and Roadmap.sh. Here's the list of the apps:
 
-1. [Web Scraper to Get News Article Content]() [Python]
+1. [Web Scraper to Get News Article Content](https://github.com/imhefizh/BackEnd-Lab/tree/main/Apps/web-scraper-to-get-news-article-content) [Python]
 
 ## Problems
 
